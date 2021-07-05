@@ -22,7 +22,7 @@ There are two binary files and the normal Python file available for this game. I
   2. Now you should be in the game.
 
 
-## USING THE BINARY FOR LINUX
+### USING THE BINARY FOR LINUX
   This is tested on: 
    * Open Suse Leap 15.1
    * Kali Linux 2021.1 (via QEMU)
