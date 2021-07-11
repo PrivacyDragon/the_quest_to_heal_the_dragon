@@ -758,6 +758,7 @@ def createGame(): #This is the function that starts a new game.
 	print("Some code is setting up the game right now!\n") #First tell the user that everything is being set up.
 	try: #Here it is tried to create two new files. One  For the inventory and one for the place where the user is.
 		try: #First it should be tried to create a new folder in the .config folder.
+			os.mkdir(HOME + "/.config")
 			os.mkdir(HOME + "/.config/The-quest-to-heal-the-dragon")
 		except:
 			print("") #If it goes wrong with creating the folder, it can be that the folder already exists. So don't display anything yet.
